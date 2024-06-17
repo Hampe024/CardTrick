@@ -1,0 +1,57 @@
+.current {
+    display: grid;
+    grid-template-columns: 500px 200px;
+}
+
+.yesBtn {
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 4rem;
+    background-color: rgba(51, 170, 51);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(91, 219, 91, 0.4);
+}
+
+.noBtn {
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 4rem;
+    background-color: rgba(241, 76, 39);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(241, 76, 39, 0.4);
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 20px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 30px;
+}
+
+.numberBox {
+    text-align: center;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#checked {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+#correct .card {
+    box-shadow: 0 0 20px rgba(51, 170, 51);
+    background-color: rgba(91, 219, 91, 0.2);
+}
+
+#notCorrect .card {
+    box-shadow: 0 0 20px rgba(241, 76, 39);
+    background-color: rgba(241, 76, 39, 0.2);
+}

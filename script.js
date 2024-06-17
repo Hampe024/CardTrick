@@ -33,6 +33,9 @@ const checkResult = async () => {
     btns.removeChild(btns.firstChild);
     btns.removeChild(btns.firstChild);
 
+    const current = document.getElementById("current");
+    current.parentNode.removeChild(current);
+
     let chosenNumber = 0;
     for (let card of correct.children) {
         chosenNumber += parseInt(card.firstChild.firstChild.innerHTML);

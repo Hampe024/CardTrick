@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script lang="js" src="script.js"></script>
+    <script type="module" src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Card trick</title>
 </head>
 <body>
     <div id="gameBox">
+        <div class="current">
+            <div id="nextCard"></div>
+            <div id="btns"></div>
+        </div>
 
+        <div id="checked">
+            <div id="correct"></div>
+            <div id="notCorrect"></div>
+        </div>
     </div>
 </body>
 </html>
